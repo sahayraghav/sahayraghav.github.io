@@ -1,17 +1,32 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
 
-// Get the navbar
-var navbar = document.getElementsByClassName("top");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
+function Hobbies(){
+    document.getElementById("hobbyButton").click();
 }
+
+function skill(){
+  document.getElementById("skillButton").click();
+}
+
+document.getElementById("nameButton").onclick = function() {home()};
+document.getElementById("hobbyButton").onclick = function() {hobby()};
+document.getElementById("homeButton").onclick = function() {home()};
+document.getElementById("skillButton").onclick = function() {skill()};
+
+function hobby(){
+  document.getElementById("hobbyButton").style.backgroundColor = "white";
+  document.getElementById("homeButton").style.backgroundColor = "";
+  document.getElementById("skillButton").style.backgroundColor = "";
+}
+
+function home(){
+  document.getElementById("hobbyButton").style.backgroundColor = "";
+  document.getElementById("homeButton").style.backgroundColor = "white";
+  document.getElementById("skillButton").style.backgroundColor = "";
+}
+
+function skill(){
+  document.getElementById("hobbyButton").style.backgroundColor = "";
+  document.getElementById("homeButton").style.backgroundColor = "";
+  document.getElementById("skillButton").style.backgroundColor = "white";
+}
+

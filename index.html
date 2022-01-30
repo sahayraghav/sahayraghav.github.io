@@ -8,29 +8,71 @@
         <header>
             <div class="top">
                 <ul class="nav-menu">
-                    <li class="homebtn"> <a href="">Home</a></li>
-                    <li> <a href="">My Hobbies</a></li>
-                    <li> <a href="">Skills</a></li> 
+                    <li class="homebtn"> <a href="#home" id="homeButton">Home</a></li>
+                    <li> <a href="#hobbies" id="hobbyButton">My Hobbies</a></li>
+                    <li> <a href="#skill" id="skillButton">Skills</a></li> 
                 </ul>
                 <div class="my-name">
-                    <a href="">RAGHAV SAHAY</a>
+                    <a href="#home" id="nameButton">RAGHAV SAHAY</a>
                 </div>
             </div>
         </header>
-        <div class="home">
+        <div class="home" id="home">
             <div class="description">
-                <h1 class="homeHeading">Raghav Sahay</h1>
-                <h3 class="homeDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    <br> ab totam quis quas, ratione quam debitis nulla, quia sequi eos veritatis non, 
-                    <br> provident repellat ullam deleniti inventore quasi perspiciatis.
-                </h3>
-                <div class="container">
-                    <button type="button Hobbies-button" class="button1" onclick="Home()">Hobbies</button>
-                    <button type="button Skills-button" class="button2" onClick="skill()">Skills</button>
+                <div class="bio">
+                    <h1 class="homeHeading">Raghav Sahay</h1>
+                    <h3 class="homeDesc">Hi, I am Raghav Sahay. I am an enthusiastic person 
+                        <br> who will never miss out on opportunities to have fun. 
+                        <br> Always eager to learn more and push my capacities.
+                    </h3>
+                    <div class="container">
+                        <button type="button Hobbies-button" class="button1" onclick="Hobbies()">Hobbies</button>
+                        <button type="button Skills-button" class="button2" onClick="skill()">Skills</button>
+                    </div>
+                </div>  
+                <div class="bio">
+                    <img class="raghavPic" src="Raghav.jpeg">
                 </div>
             </div>
-            <div class="myPic">
-                <img class="raghavPic" src="Raghav.jpeg">
+        </div>
+        <div class="hobbies" id="hobbies">
+            <h1>r</h1>
+            <h1>r</h1>
+            <h1 class="hobbyHeading">My Hobbies</h1>
+            <div class="hobbyIcons">
+                <img src="movie.jpg">
+                <img src="chess.png">
+                <img src="sports.png">
+                <img src="fitness.jpg">
+            </div>
+            <div class="hobbyTitles">
+                <h3>Movies</h3>
+                <h3>Chess</h3>
+                <h3>Sports</h3>
+                <h3>Fitness</h3>
+            </div>
+        </div>
+        <div class="skill" id="skill">
+            <h1>r</h1>
+            <h1>r</h1>
+            <h1 class="skillHeading">Skills</h1>
+            <div class="skillContainer">
+                <div class="guitar">
+                    <h3>Guitar</h3>
+                    <progress value="50" max="100"> 50% </progress>
+                </div>
+                <div class="webDevelopement">
+                    <h3>Web Developement</h3>
+                    <progress value="25" max="100"> 25% </progress>
+                </div>
+                <div class="badminton">
+                    <h3>Badminton</h3>
+                    <progress value="75" max="100"> 75% </progress>
+                </div>
+                <div class="chess">
+                    <h3>Chess</h3>
+                    <progress value="75" max="100"> 75% </progress>
+                </div>
             </div>
         </div>
         <script src="script.js"></script>

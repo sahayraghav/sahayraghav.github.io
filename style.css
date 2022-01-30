@@ -7,12 +7,6 @@ body {
     background-attachment: fixed;
   }
 
-/* header {
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-} */
-
 .top {
     position: fixed;
     top: 0;
@@ -57,23 +51,29 @@ body {
     font-size: 20px;
 }
 
-.homebtn a {
-    border: 1px solid grey;
-    background-color: white;
-}
-
 .nav-menu li a:hover {
     border: 1px solid grey;
     background-color: white;
 }
 
+
+
 .home {
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 100px;
+    height: 500px;
 }
 
-.description {
+.description div{
+    margin-top: 100px;
+    width: 600px;
+    display: inline-block;
+}
+
+.bio{
     width: 50%;
+    float: left;
+    padding: 20px;
 }
 
 .homeHeading {
@@ -85,15 +85,17 @@ body {
 }
 
 .container{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .container button{
-    color: white;
+    color: black;
     background-color: turquoise;
     height: 50px;
     width: 100px;
     display: inline-block;
+    font-size: large;
+    border-radius: 20%;
 }
 
 .container button:hover{
@@ -101,10 +103,94 @@ body {
 }
 
 .myPic{
-    float:right;
+    margin-left: 500px;
 }
 
 .raghavPic{
     height: 200px;
     width: 200px;
 }
+
+
+
+.hobbies{
+    height: 400px;
+    margin-left: 100px;
+}
+
+.hobbyHeading {
+    color: turquoise;
+
+}
+
+.hobbyTitles h3{
+    display: inline-block;
+    padding: 5px 40px;
+    color: turquoise;
+}
+
+.hobbyIcons img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.skill {
+    height: 800px;
+    margin-left: 100px;
+}
+
+/* .skillContainer div{
+    display: inline-block;
+} */
+
+.skillHeading {
+    color: turquoise;
+}
+
+.skillName h3{
+    color: turquoise;
+}
+
+.skillContainer div{
+    padding-bottom: 20px;
+}
+
+.guitar *{
+    display: inline;
+    padding-inline-end: 50px;
+}
+
+.guitar h3{
+    color: turquoise;
+}
+
+.webDevelopement *{
+    display: inline;
+    padding-inline-end: 50px;
+}
+
+.webDevelopement h3{
+    color: turquoise;
+}
+
+.chess *{
+    display: inline;
+    padding-inline-end: 50px;
+}
+
+.chess h3{
+    color: turquoise;
+}
+
+.badminton *{
+    display: inline;
+    padding-inline-end: 50px;
+}
+
+.badminton h3{
+    color: turquoise;
+}
+
+
