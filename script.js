@@ -3,7 +3,7 @@ function Hobbies(){
     document.getElementById("hobbyButton").click();
 }
 
-function skill(){
+function Skill(){
   document.getElementById("skillButton").click();
 }
 
